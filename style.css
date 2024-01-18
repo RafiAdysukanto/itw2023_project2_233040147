@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+    /* min-height: 2000px; */
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+h1 span {
+    color: rgb(182, 73, 89);
+}
+
+.jumbotron {
+    padding: 50px;
+    margin-top: 70px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+section {
+    padding-top: 5rem;
+}
+
